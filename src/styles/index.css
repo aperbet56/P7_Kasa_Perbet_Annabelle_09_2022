@@ -88,13 +88,13 @@ header nav ul li {
 footer {
   background-color: #000000;
   text-align: center;
-  padding: 1rem;
+  padding: 16px;
   width: 100%;
   margin-top: 30px;
 }
 footer img {
-  margin-top: 3.5rem;
-  margin-bottom: 2rem;
+  margin-top: 56px;
+  margin-bottom: 32px;
 }
 footer span {
   color: #ffffff;
@@ -102,22 +102,20 @@ footer span {
 }
 
 .banner {
+  position: relative;
   display: flex;
   justify-content: center;
-  position: relative;
   align-items: center;
-  margin: 2rem 0 4rem 0;
+  margin: 32px 0 64px 0;
   max-width: 100%;
 }
-
-.banner .banner__img {
+.banner__img {
+  max-width: 100%;
   border-radius: 25px;
   filter: brightness(70%);
-  max-width: 100%;
 }
-
-.banner .banner__text {
-  color: #FFFFFF;
+.banner__text {
+  color: #ffffff;
   position: absolute;
   font-size: 48px;
   font-weight: 500;
@@ -127,9 +125,9 @@ footer span {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: #f6f6f6;
-  padding: 2rem 1rem;
+  padding: 32px 16px;
   border-radius: 25px;
   max-width: 1240px;
 }
@@ -138,6 +136,10 @@ footer span {
   height: 340px;
   position: relative;
   margin: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+.accomodations figure:hover {
+  transform: scale(1.02);
 }
 .accomodations img {
   width: 100%;
@@ -152,7 +154,7 @@ footer span {
   position: absolute;
   font-weight: 500;
   bottom: 15px;
-  margin-left: 1rem;
+  margin-left: 16px;
   font-size: 18px;
   color: #ffffff;
 }
