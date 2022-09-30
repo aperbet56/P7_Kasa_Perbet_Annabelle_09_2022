@@ -1,0 +1,19 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin: 2rem 0 4rem 0;
+  max-width: 100%;
+}
+.banner .banner__img{
+  border-radius: 25px;
+  filter: brightness(70%);
+  max-width: 100%;
+}
+.banner .banner__text {
+  color: #FFFFFF;
+  position: absolute;
+  font-size: 48px;
+  font-weight: 500;
+}

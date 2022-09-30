@@ -1,0 +1,34 @@
+.accomodations {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; //center
+  background-color: $color-tertiary;
+  padding: 2rem 1rem;
+  border-radius: 25px;
+  max-width: 1240px;
+
+  & figure {
+    max-width: 340px;
+    height: 340px;
+    position: relative;
+    margin: 20px;
+  }
+
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+  }
+
+  & figcaption {
+    position: absolute;
+    font-weight: 500;
+    bottom: 15px;
+    margin-left: 1rem;
+    font-size: 18px;
+    color: $color-secondary;
+  }
+}
